@@ -1,0 +1,3 @@
+kaldiio>=2.17.0
+torch>=1.5.0
+numpy>=1.19.3
