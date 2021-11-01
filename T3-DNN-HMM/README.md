@@ -1,7 +1,7 @@
 # Task-3 : DNN-HMM training on TIMIT
 
 ## Preliminary
-You must finish [Task-2](https://github.com/thuhcsi/DNN-HMM-Course/tree/main/T2-GMM-HMM) first to get a well-trained GMM-HMM model, which we will use for generating frame-level alignments.
+You must finish [Task-2](https://github.com/thuhcsi/dpss-exp2-HMM/tree/main/T2-GMM-HMM) first to get a well-trained GMM-HMM model, which we will use for generating frame-level alignments.
 
 First start a terminal and navigate to timit folder:
 ```sh
@@ -10,12 +10,12 @@ cd ~/kaldi/egs/timit/s5
 
 Clone this repo to current folder:
 ```sh
-git clone https://github.com/thuhcsi/DNN-HMM-Course.git
+git clone https://github.com/thuhcsi/dpss-exp2-HMM.git
 ```
 
-Navigate to DNN-HMM-Course:
+Navigate to dpss-exp2-HMM:
 ```sh
-cd DNN-HMM-Course
+cd dpss-exp2-HMM
 ```
 
 Install required packages
@@ -27,9 +27,9 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt --u
 
 NOTE: by correctly running the baseline script, you can get basic score (16 points) of this task.
 
-First navigate to DNN-HMM-Course/T3-DNN-HMM:
+First navigate to dpss-exp2-HMM/T3-DNN-HMM:
 ```sh
-cd ~/kaldi/egs/timit/s5/DNN-HMM-Course/T3-DNN-HMM
+cd ~/kaldi/egs/timit/s5/dpss-exp2-HMM/T3-DNN-HMM
 ```
 Similar to Task-2, you can see a script `run.sh` which starts a full ASR experiment and performs data preparation, training, evaluation, forward, and decoding steps.
 
