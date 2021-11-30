@@ -101,7 +101,7 @@ Run stage-0: format data and prepare lexicon:
 ```
 Answer questions:
 - Q1 (3 points): Look at the directory `data/train`, describe what is contained in files `text`, `wav.scp` and `utt2spk` respectively (Hint: all those files can be seen as key-value dicts). Here are some docs you can refer to : [link](http://kaldi-asr.org/doc/data_prep.html#data_prep_data)
-- Q2 (3 points): Look at the file `data/lang/topo`, which contains two kinds of HMM topology, draw them using circles and arrows like [this](http://img.jeepxie.net/upload/c/42/c429ab922d03742c061f94d27c4b1915.png). You may notice that the HMM topology of a special phoneme is different from other phonemes. Use `data/lang/phones.txt` to map and find the name of the special phoneme. Here are some docs you can refer to: [link](http://kaldi-asr.org/doc/data_prep.html#data_prep_lang_contents), [link](http://kaldi-asr.org/doc/hmm.html)
+- Q2 (3 points): Look at the file `data/lang/topo`, which contains two kinds of HMM topology, draw them using circles and arrows like [this](https://github.com/thuhcsi/dpss-exp2-HMM/blob/main/T2-GMM-HMM/temp.png). You may notice that the HMM topology of a special phoneme is different from other phonemes. Use `data/lang/phones.txt` to map and find the name of the special phoneme. Here are some docs you can refer to: [link](http://kaldi-asr.org/doc/data_prep.html#data_prep_lang_contents), [link](http://kaldi-asr.org/doc/hmm.html)
 - Q3 (2 points): You can change `num-sil-states` and `num-nonsil-states` in `run.sh:line59`, then run this stage again and draw new topologies from `data/lang/topo`. (Note that set them to default values(sil=3 and nonsil=3) and rerun this stage before proceeding to the next stage since other values may affect the performance)
 
 <details>
