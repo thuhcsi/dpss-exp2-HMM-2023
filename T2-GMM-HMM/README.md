@@ -68,7 +68,7 @@
 	wget 10.103.10.112:8000/file/ubuntu20.04.kaldi.tar.gz (or type 10.103.10.112:8000/file/ubuntu20.04.kaldi.tar.gz via Browser)
 	tar xzf ubuntu20.04.kaldi.tar.gz
 	```
-
+- All install package mentioned above could be found in here: https://cloud.tsinghua.edu.cn/d/5ca2234b0daa4516b70a/
 ## GMM-HMM Training
 
 NOTE: by correctly running the baseline script, you can get basic score (16 points) of this task.
