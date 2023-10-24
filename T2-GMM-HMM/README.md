@@ -1,4 +1,4 @@
-# Task-2: GMM-HMM training on TIMIT
+# Task-2: 基于HMM的强制对齐实验
 
 ## Preliminary
 
