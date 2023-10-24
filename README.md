@@ -6,10 +6,10 @@ DNN-HMM related Experiments for THUHCSI Course : \<Digital Processing of Speech 
 - [7] Implement backward algorithm in `T1-Viterbi-Decoding/viterbi.py` 
 - [6] Implement viterbi algorithm in `T1-Viterbi-Decoding/viterbi.py` 
 
-NOTE: More information can be found in [T1-Viterbi-Decoding](https://github.com/thuhcsi/dpss-exp2-HMM/tree/main/T1-Viterbi-Decoding)
+NOTE: More information can be found in T1-Viterbi-Decoding
 
 # Task-2 : 基于HMM的强制对齐实验
 - [30] Run MFA align and answer questions
 
-NOTE: More information can be found in [T2-MFA](https://github.com/thuhcsi/dpss-exp2-HMM/tree/main/T2-MFA)
+NOTE: More information can be found in T2-MFA
 
