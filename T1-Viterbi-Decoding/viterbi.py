@@ -105,8 +105,8 @@ class HMM:
         """
         T = ob.shape[0]
         delta = np.zeros((T, self.total_states))
-        phi = np.zeros((T, self.total_states), np.int)
-        best_prob, best_path = 0.0, np.zeros(T, dtype=np.int)
+        phi = np.zeros((T, self.total_states), np.int32)
+        best_prob, best_path = 0.0, np.zeros(T, dtype=np.int32)
 
         # Begin Assignment
 
